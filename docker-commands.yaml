@@ -1,5 +1,5 @@
 source: README.md
-project: Docker DevOps Course Notes
+project: AWS EC2 Docker Deployment Journey
 concept:
   containers: "Software packages that run on Linux and bundle an application with its dependencies."
   docker: "Platform for building, shipping, and running containers."
@@ -31,7 +31,3 @@ commands:
   - command: "docker rm my-nginx"
     description: "Removes a stopped container."
     example: "docker rm my-nginx"
-notes:
-  - "No Docker commands are currently documented in README.md."
-  - "Add commands here as the course notes grow."
-  - "The --name flag is used with docker run, not docker exec."
